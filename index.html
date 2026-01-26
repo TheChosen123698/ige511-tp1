@@ -22,93 +22,148 @@
     <nav class="nav">
       <div class="brand">
         <div class="badge">I</div>
-        <div>IUYTRESDCVBHNT Lab</div>
+        <div>IUYTRESDCVBHNT Framework</div>
       </div>
       <div>
-        <a href="#definition">Définition</a>
-        <a href="#acronyme">Acronyme</a>
-        <a href="#seo">SEO</a>
+        <a href="#overview">Overview</a>
+        <a href="#acronym">Acronym</a>
+        <a href="#modules">Modules</a>
+        <a href="#example">Example</a>
         <a href="#changelog">Changelog</a>
       </div>
     </nav>
 
     <header class="hero">
-      <p class="kicker">Expérience SEO (IGE511) — terme artificiel</p>
+      <p class="kicker">AI reliability & evaluation — academic exercise</p>
       <h1>IUYTRESDCVBHNT</h1>
       <p class="sub">
-        Acronyme scientifique <strong>fictif</strong> construit pour tester l’indexation Google et des stratégies de référencement naturel.
-        Aucun lien avec un standard réel.
+        <strong>IUYTRESDCVBHNT</strong> is an invented acronym used to describe a coherent framework for
+        evaluating and stabilizing machine-learning systems under real-world drift, noise, and edge cases.
       </p>
 
       <div class="btnRow">
-        <a class="btn primary" href="#acronyme">Voir l’acronyme</a>
-        <a class="btn" href="#seo">Méthode SEO</a>
-        <a class="btn" href="sitemap.xml">Sitemap</a>
-        <a class="btn" href="robots.txt">Robots</a>
+        <a class="btn primary" href="#modules">Explore the framework</a>
+        <a class="btn" href="#example">See a concrete example</a>
+        <a class="btn" href="#acronym">Acronym breakdown</a>
       </div>
     </header>
 
-    <section class="grid">
-      <article class="card" id="definition">
-        <h2>Définition générale</h2>
+    <section class="grid" id="overview">
+      <article class="card">
+        <h2>What it means</h2>
         <p>
-          <strong>IUYTRESDCVBHNT</strong> décrit un cadre théorique fictif dédié à la
-          <em>corrélation</em>, la <em>validation</em> et l’<em>indexation sémantique</em> de données synthétiques.
+          Modern AI systems often look great in a notebook and then quietly degrade in production.
+          The point of IUYTRESDCVBHNT is to treat AI as an operational system: you measure impact,
+          detect drift, validate fixes, and maintain guardrails so performance remains stable.
         </p>
         <p class="small">
-          Mot-clé cible : <code>iuytresdcvbhnt</code> (casse libre). Cette page est volontairement structurée pour faciliter le crawl.
+          Key idea: <code>if you don’t measure a model continuously, you don’t know if it works</code> — you only know it worked once.
         </p>
       </article>
 
-      <aside class="card" id="seo">
-        <h2>Objectif SEO</h2>
-        <p>
-          Objectif : être indexé rapidement et ranker sur <strong>iuytresdcvbhnt</strong>.
-          Le contenu est organisé en sections, ancres internes et métadonnées.
-        </p>
-        <p class="small">
-          Indicateurs : impressions, clics, position moyenne (Search Console).
-        </p>
+      <aside class="card">
+        <h2>Core goals</h2>
+        <ul>
+          <li>Detect distribution shift and data-quality issues early.</li>
+          <li>Stress-test models with synthetic edge cases.</li>
+          <li>Explain failures via correlations and root-cause signals.</li>
+          <li>Validate changes offline + online (A/B) before rollout.</li>
+          <li>Operate with hybrid guardrails (rules + ML) to reduce surprises.</li>
+        </ul>
       </aside>
     </section>
 
-    <section class="card" id="acronyme">
-      <h2>Signification de l’acronyme</h2>
-      <p>
-        Décomposition lettre par lettre (fiction) :
+    <section class="card" id="acronym">
+      <h2>Acronym expansion</h2>
+      <p class="small">
+        Full form: <strong>Integrated Universal Yield Tracking Research Engine for Synthetic Data Correlation Validation Based on Hybrid Neural Theory</strong>
       </p>
 
       <div class="acronym">
-        <div class="pill"><b>I</b><span>Integrated</span></div>
-        <div class="pill"><b>U</b><span>Universal</span></div>
-        <div class="pill"><b>Y</b><span>Yield</span></div>
-        <div class="pill"><b>T</b><span>Tracking</span></div>
-        <div class="pill"><b>R</b><span>Research</span></div>
-        <div class="pill"><b>E</b><span>Engine</span></div>
-        <div class="pill"><b>S</b><span>for Synthetic</span></div>
-        <div class="pill"><b>D</b><span>Data</span></div>
-        <div class="pill"><b>C</b><span>Correlation</span></div>
-        <div class="pill"><b>V</b><span>Validation</span></div>
-        <div class="pill"><b>B</b><span>Based on</span></div>
-        <div class="pill"><b>H</b><span>Hybrid</span></div>
-        <div class="pill"><b>N</b><span>Neural</span></div>
-        <div class="pill"><b>T</b><span>Theory</span></div>
+        <div class="pill"><b>I</b><span>Integrated (one pipeline: data → model → monitoring)</span></div>
+        <div class="pill"><b>U</b><span>Universal (comparable metrics across versions)</span></div>
+        <div class="pill"><b>Y</b><span>Yield (real impact, not just accuracy)</span></div>
+        <div class="pill"><b>T</b><span>Tracking (drift, latency, errors, cost)</span></div>
+        <div class="pill"><b>R</b><span>Research (experiments + learning loop)</span></div>
+        <div class="pill"><b>E</b><span>Engine (reproducible ML CI/CD)</span></div>
+        <div class="pill"><b>S</b><span>Synthetic (hard cases, rare events)</span></div>
+        <div class="pill"><b>D</b><span>Data (quality, lineage, versioning)</span></div>
+        <div class="pill"><b>C</b><span>Correlation (why failures happen)</span></div>
+        <div class="pill"><b>V</b><span>Validation (offline + online checks)</span></div>
+        <div class="pill"><b>B</b><span>Based on (explicit assumptions & constraints)</span></div>
+        <div class="pill"><b>H</b><span>Hybrid (rules + ML guardrails)</span></div>
+        <div class="pill"><b>N</b><span>Neural (learned components)</span></div>
+        <div class="pill"><b>T</b><span>Theory (testable principles, not vibes)</span></div>
       </div>
     </section>
 
+    <section class="card" id="modules">
+      <h2>The 5-module framework</h2>
+
+      <h3>1) Yield Tracking</h3>
+      <p>
+        Define success in business/product terms: conversion, error cost, customer satisfaction, time saved.
+        Track these alongside ML metrics so optimization doesn’t become meaningless.
+      </p>
+
+      <h3>2) Synthetic Data Engine</h3>
+      <p>
+        Generate controlled edge cases: rare combinations, adversarial noise, missing fields, extreme values,
+        and simulated seasonal patterns. This creates a stress-test suite that prevents fragile models.
+      </p>
+
+      <h3>3) Correlation + Root Cause Signals</h3>
+      <p>
+        When performance drops, correlate it with feature drift, upstream data changes, latency spikes, or new user behavior.
+        The goal is to explain failures, not just observe them.
+      </p>
+
+      <h3>4) Validation Pipeline</h3>
+      <p>
+        Validate fixes in layers: offline evaluation, shadow traffic, and online A/B tests.
+        Roll out progressively with safe fallbacks (rollback / feature flags).
+      </p>
+
+      <h3>5) Hybrid Guardrails</h3>
+      <p>
+        Combine ML with deterministic rules (business constraints, safety filters, policy checks).
+        Hybrid systems reduce catastrophic errors and make behavior more predictable.
+      </p>
+    </section>
+
+    <section class="card" id="example">
+      <h2>Concrete example: e-commerce recommendations</h2>
+      <p>
+        Suppose you run a recommender system. During sales season, user behavior shifts and new products appear.
+        CTR drops, returns increase, and customer complaints rise.
+      </p>
+
+      <ul>
+        <li><strong>Tracking:</strong> detects drift (new product mix, new user intents) and rising latency.</li>
+        <li><strong>Synthetic:</strong> generates rare scenarios (new users + sparse history, cold-start products).</li>
+        <li><strong>Correlation:</strong> links performance drop to specific features and upstream changes.</li>
+        <li><strong>Validation:</strong> tests fixes offline → shadow → A/B before full rollout.</li>
+        <li><strong>Hybrid:</strong> adds guardrails (no out-of-stock items, price constraints, safety rules).</li>
+      </ul>
+
+      <p class="small">
+        Result: the model becomes a maintained product, not a one-time training artifact.
+      </p>
+    </section>
+
     <footer class="footer" id="changelog">
-      <p><strong>Nom :</strong> Mokhtar Alila</p>
-      <p><strong>CIP :</strong> alim1303</p>
+      <p><strong>Name:</strong> Mokhtar Alila</p>
+      <p><strong>CIP:</strong> alim1303</p>
       <hr />
       <h2>Changelog</h2>
       <ul>
-        <li>2026-01-13 : Déploiement initial</li>
-        <li>2026-01-25 : Refonte contenu — acronyme scientifique fictif IUYTRESDCVBHNT</li>
-        <li>2026-01-25 : Ajout UI/CSS + navigation + sections (amélioration UX)</li>
+        <li>2026-01-13: Initial deployment</li>
+        <li>2026-01-25: Content refactor — AI reliability framework (IUYTRESDCVBHNT)</li>
       </ul>
     </footer>
 
   </div>
 </body>
+
 
 </html>
