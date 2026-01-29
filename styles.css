@@ -165,3 +165,46 @@ code{background:rgba(255,255,255,.06); padding:2px 6px; border-radius:8px; borde
   opacity: 0.8;
 }
 
+/* Centered headings */
+.center {
+  text-align: center;
+}
+
+/* Acronym full expansion highlight */
+.acronym-full {
+  text-align: center;
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: linear-gradient(
+    135deg,
+    rgba(110,231,255,.15),
+    rgba(167,139,250,.15)
+  );
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+/* Changelog table */
+.changelog {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+.changelog th,
+.changelog td {
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.changelog th {
+  background: rgba(255,255,255,.08);
+  font-weight: 700;
+}
+
+.changelog tr:nth-child(even) {
+  background: rgba(255,255,255,.03);
+}
